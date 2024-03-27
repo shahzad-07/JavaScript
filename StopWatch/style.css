@@ -1,0 +1,29 @@
+#timecontainer{
+    display:inline-block;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    align-items: center;
+    background-color: gray;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 50px 500px;
+    padding: 30px 30px;
+}
+
+#timer{
+    font-size: 62px;
+    color: darkgreen;
+    font-family: monospace;
+}
+
+.timebtn{
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 4px 14px;
+    margin: 5px 6px;
+}
