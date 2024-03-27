@@ -1,0 +1,29 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#gamecontainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+#cellcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+#resetbtn{
+    size: 20px;
+    border: 1px solid;
+    border-radius: 25px;
+    height: 30px;
+    width: 90px;
+}
