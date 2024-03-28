@@ -1,0 +1,35 @@
+#gamecontainer{
+    text-align: center;
+    align-items: center;
+}
+
+#gameboard{
+    display: block;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+#button-container {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#resetbtn{
+    display: inline-block;
+    font-family: cursive;
+    font-size: 18px;
+    width: 90px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 5px 25px;
+}
+
+#scoretext{
+    display: inline-block;
+    margin: 3px 35px;
+    font-family: cursive;
+    font-size: 70px;
+    margin-right: 10px;
+}
